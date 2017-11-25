@@ -1,0 +1,7 @@
+// Platzieren Sie Ihre Einstellungen in dieser Datei, um die Standardeinstellungen zu überschreiben.
+{
+    "editor.wordWrap": true,
+    "git.confirmSync": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "window.title": "${rootName}${separator}${dirty}${activeEditorShort}"
+}
