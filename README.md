@@ -7,6 +7,27 @@ config config --local status.showUntrackedFiles no
 config checkout
 ```
 
+## Pretty prompts in PowerShell
+
+You need to use a terminal emulator, like [ConEmu](https://conemu.github.io/) or [Cmder](http://cmder.net/). They can also be used [for WSL as described here](https://conemu.github.io/en/BashOnWindows.html).
+
+The following commands will get you started with a nice prompt:
+
+```powershell
+Install-Module -Name PowerLine
+Import-Module -Name PowerLine
+Set-PowerLinePrompt -SetCurrentDirectory -RestoreVirtualTerminal -Newline -Timestamp -Colors "#00DDFF","#0066FF"
+```
+
+If you are looking for theme management, take a look at [oh-my-posh](https://github.com/JanJoris/oh-my-posh):
+
+```powershell
+Import-Module -Name posh-git, oh-my-posh
+Set-Theme agnoster
+```
+
+You should be using the [PowerLine fonts](https://github.com/powerline/fonts/), [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts) or [fonts from here](https://github.com/gabrielelana/awesome-terminal-fonts).
+
 ## Useful prerequisites
 
 ```powershell
