@@ -1,0 +1,5 @@
+[user]
+	name = Nicholas Dille
+	email = nicholas.dille@mailbox.org
+[credential]
+	helper = wincred
