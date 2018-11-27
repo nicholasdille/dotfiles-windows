@@ -1,0 +1,8 @@
+# To use common configuration in %APPDATA%\mintty, simply remove this file
+Font=Inconsolata for Powerline
+FontHeight=14
+FontWeight=500
+CursorType=block
+FontSmoothing=full
+BoldAsColour=no
+RightClickAction=paste
