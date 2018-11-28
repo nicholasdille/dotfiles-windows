@@ -1,8 +1,13 @@
 # To use common configuration in %APPDATA%\mintty, simply remove this file
-Font=Inconsolata for Powerline
+Font=DejaVu Sans Mono for Powerline
 FontHeight=14
-FontWeight=500
+FontWeight=400
 CursorType=block
 FontSmoothing=full
 BoldAsColour=no
 RightClickAction=paste
+BellType=0
+BellFlash=no
+BellTaskbar=no
+BellPopup=no
+Term=xterm-256color
