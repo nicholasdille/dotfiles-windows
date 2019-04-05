@@ -1,5 +1,10 @@
 [user]
+	email = nicholas.dille@haufe-lexware.com
 	name = Nicholas Dille
-	email = nicholas.dille@mailbox.org
-[credential]
-	helper = wincred
+	signingkey = CC5738F1C40FF308
+[gpg]
+	program = C:\\Program Files (x86)\\GnuPG\\bin\\gpg.exe
+[commit]
+	gpgsign = true
+[core]
+	editor = code --wait
