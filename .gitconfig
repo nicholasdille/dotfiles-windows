@@ -1,10 +1,12 @@
 [user]
-	email = nicholas.dille@haufe-lexware.com
-	name = Nicholas Dille
-	signingkey = CC5738F1C40FF308
+        name = Nicholas Dille
+[includeIf "gitdir:C:/Users/DilleN/Documents/repos/"]
+        path = .gitconfig-haufe
+[includeIf "gitdir:C:/Users/DilleN/Documents/Private/"]
+        path = .gitconfig-private
 [gpg]
-	program = C:\\Program Files (x86)\\GnuPG\\bin\\gpg.exe
+        program = C:\\Program Files (x86)\\GnuPG\\bin\\gpg.exe
 [commit]
-	gpgsign = true
+        gpgsign = true
 [core]
-	editor = code --wait
+        editor = code --wait
