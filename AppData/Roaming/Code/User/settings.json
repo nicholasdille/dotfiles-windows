@@ -1,7 +1,76 @@
-// Platzieren Sie Ihre Einstellungen in dieser Datei, um die Standardeinstellungen zu überschreiben.
 {
-    "editor.wordWrap": true,
+    "telemetry.enableTelemetry": false,
+    "editor.minimap.enabled": false,
+
     "git.confirmSync": false,
-    "workbench.startupEditor": "newUntitledFile",
-    "window.title": "${rootName}${separator}${dirty}${activeEditorShort}"
+    "git.autofetch": true,
+
+    "workbench.startupEditor": "none",
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+
+    "window.newWindowDimensions": "maximized",
+    "window.openFilesInNewWindow": "on",
+    "window.openFoldersInNewWindow": "on",
+    "window.restoreFullscreen": true,
+    "window.restoreWindows": "all",
+    "window.title": "${rootName}${separator}${dirty}${activeEditorShort}",
+    "window.zoomLevel": 0,
+
+    "files.trimTrailingWhitespace": true,
+
+    "powershell.integratedConsole.showOnStartup": false,
+    "powershell.powerShellExePath": "C:\\Program Files\\PowerShell\\6\\pwsh.exe",
+
+    "[makefile]": {
+        "editor.insertSpaces": false,
+        "editor.tabSize": 8
+    },
+    "[yaml]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2,
+        "editor.autoIndent": false
+    },
+
+    "files.associations": {
+        "Makefile.*": "makefile",
+        "*.csv": "plaintext"
+    },
+
+    "sync.gist": "29795e36ef172767753cb82e8c79d245",
+    "sync.lastUpload": "2018-05-15T12:33:31.634Z",
+    "sync.autoDownload": false,
+    "sync.autoUpload": false,
+    "sync.lastDownload": "2018-07-24T09:54:33.971Z",
+    "sync.forceDownload": false,
+    "sync.host": "",
+    "sync.pathPrefix": "",
+    "sync.quietSync": false,
+    "sync.askGistName": false,
+    "gitlens.keymap": "chorded",
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": false,
+        "suppressCommitNotFoundWarning": false,
+        "suppressFileNotUnderSourceControlWarning": false,
+        "suppressGitVersionWarning": false,
+        "suppressLineUncommittedWarning": false,
+        "suppressNoRepositoryWarning": false,
+        "suppressResultsExplorerNotice": false,
+        "suppressShowKeyBindingsNotice": true
+    },
+    "sync.removeExtensions": true,
+    "sync.syncExtensions": true,
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "git.enableCommitSigning": true,
+    "workbench.colorTheme": "Monokai Dimmed",
+    "extensions.ignoreRecommendations": true,
+    "editor.fontFamily": "Cascadia Code PL,Consolas, 'Courier New', monospace",
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "hediet.vscode-drawio.local-storage": "eyIuZHJhd2lvLWNvbmZpZyI6IntcImxhbmd1YWdlXCI6XCJcIixcImN1c3RvbUZvbnRzXCI6W10sXCJsaWJyYXJpZXNcIjpcIkZvbnQgQXdlc29tZSA1IFBybyAoUmVndWxhcik7S3ViZXJuZXRlcyBJY29ucztnZW5lcmFsO2Jhc2ljXCIsXCJjdXN0b21MaWJyYXJpZXNcIjpbXCJMLnNjcmF0Y2hwYWRcIl0sXCJwbHVnaW5zXCI6W10sXCJyZWNlbnRDb2xvcnNcIjpbXCJGRkZGRkZcIixcIkZGNjY2NlwiLFwiRkYzMzMzXCIsXCIwMDAwMDBcIixcIjk5OTk5OVwiLFwiN2NiYWQ0XCIsXCIwMDY2NjZcIixcIkYwRjBGMFwiXSxcImZvcm1hdFdpZHRoXCI6XCIyNDBcIixcImNyZWF0ZVRhcmdldFwiOmZhbHNlLFwicGFnZUZvcm1hdFwiOntcInhcIjowLFwieVwiOjAsXCJ3aWR0aFwiOjgyNyxcImhlaWdodFwiOjExNjl9LFwic2VhcmNoXCI6dHJ1ZSxcInNob3dTdGFydFNjcmVlblwiOnRydWUsXCJncmlkQ29sb3JcIjpcIiNkMGQwZDBcIixcImRhcmtHcmlkQ29sb3JcIjpcIiM2ZTZlNmVcIixcImF1dG9zYXZlXCI6dHJ1ZSxcInJlc2l6ZUltYWdlc1wiOm51bGwsXCJvcGVuQ291bnRlclwiOjAsXCJ2ZXJzaW9uXCI6MTgsXCJ1bml0XCI6MSxcImlzUnVsZXJPblwiOmZhbHNlLFwidWlcIjpcIlwifSJ9",
+    "liveServer.settings.donotVerifyTags": true,
+    "extensions.autoUpdate": false,
+    "remote.SSH.remotePlatform": {
+        "docker-hcloud": "linux"
+    }
 }

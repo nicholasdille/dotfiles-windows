@@ -1,5 +1,10 @@
 [user]
 	name = Nicholas Dille
 	email = nicholas.dille@mailbox.org
+	signingkey = AEE414F76F606771
 [credential]
 	helper = wincred
+[gpg]
+	program = C:\\Program Files (x86)\\GnuPG\\bin\\gpg.exe
+[commit]
+	gpgsign = true
