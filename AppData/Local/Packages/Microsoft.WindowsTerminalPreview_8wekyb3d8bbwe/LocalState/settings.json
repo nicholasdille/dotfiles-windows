@@ -6,6 +6,7 @@
         {
             "command": 
             {
+<<<<<<< HEAD
                 "action": "moveFocus",
                 "direction": "down"
             },
@@ -30,6 +31,11 @@
         {
             "command": "resetFontSize",
             "keys": "ctrl+0"
+=======
+                "action": "commandPalette"
+            },
+            "keys": "ctrl+shift+p"
+>>>>>>> ebd4f08c5e92a41f004c40f2b3f424e06075d65c
         },
         {
             "command": 
@@ -48,11 +54,47 @@
             "keys": "ctrl+alt+shift+down"
         },
         {
+<<<<<<< HEAD
             "command": 
             {
                 "action": "commandPalette"
             },
             "keys": "ctrl+shift+p"
+=======
+            "command": "resetFontSize",
+            "keys": "ctrl+0"
+        },
+        {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "right"
+            },
+            "keys": "alt+shift+<"
+        },
+        {
+            "command": 
+            {
+                "action": "moveFocus",
+                "direction": "down"
+            },
+            "keys": "alt+down"
+        },
+        {
+            "command": 
+            {
+                "action": "moveFocus",
+                "direction": "right"
+            },
+            "keys": "alt+right"
+        },
+        {
+            "command": 
+            {
+                "action": "quakeMode"
+            },
+            "keys": "win+^"
+>>>>>>> ebd4f08c5e92a41f004c40f2b3f424e06075d65c
         },
         {
             "command": 
@@ -65,9 +107,16 @@
         {
             "command": 
             {
+<<<<<<< HEAD
                 "action": "quakeMode"
             },
             "keys": "win+^"
+=======
+                "action": "swapPane",
+                "direction": "up"
+            },
+            "keys": "ctrl+alt+shift+up"
+>>>>>>> ebd4f08c5e92a41f004c40f2b3f424e06075d65c
         },
         {
             "command": 
@@ -82,6 +131,7 @@
             "keys": "ctrl+shift+f"
         },
         {
+<<<<<<< HEAD
             "command": 
             {
                 "action": "adjustFontSize",
@@ -101,26 +151,42 @@
         {
             "command": "toggleReadOnlyMode",
             "keys": "alt+shift+r"
+=======
+            "command": "togglePaneZoom",
+            "keys": "alt+shift+z"
+>>>>>>> ebd4f08c5e92a41f004c40f2b3f424e06075d65c
         },
         {
             "command": "closePane",
             "keys": "alt+shift+w"
         },
         {
+<<<<<<< HEAD
             "command": 
             {
                 "action": "moveFocus",
                 "direction": "left"
             },
             "keys": "alt+left"
+=======
+            "command": "toggleReadOnlyMode",
+            "keys": "alt+shift+r"
+>>>>>>> ebd4f08c5e92a41f004c40f2b3f424e06075d65c
         },
         {
             "command": 
             {
+<<<<<<< HEAD
                 "action": "moveFocus",
                 "direction": "right"
             },
             "keys": "alt+right"
+=======
+                "action": "adjustFontSize",
+                "delta": -1.0
+            },
+            "keys": "ctrl+minus"
+>>>>>>> ebd4f08c5e92a41f004c40f2b3f424e06075d65c
         },
         {
             "command": 
@@ -134,6 +200,17 @@
             "command": 
             {
                 "action": "resizePane",
+<<<<<<< HEAD
+=======
+                "direction": "right"
+            },
+            "keys": "alt+shift+right"
+        },
+        {
+            "command": 
+            {
+                "action": "resizePane",
+>>>>>>> ebd4f08c5e92a41f004c40f2b3f424e06075d65c
                 "direction": "down"
             },
             "keys": "alt+shift+down"
@@ -141,10 +218,25 @@
         {
             "command": 
             {
+<<<<<<< HEAD
                 "action": "resizePane",
                 "direction": "right"
             },
             "keys": "alt+shift+right"
+=======
+                "action": "moveFocus",
+                "direction": "left"
+            },
+            "keys": "alt+left"
+        },
+        {
+            "command": 
+            {
+                "action": "adjustFontSize",
+                "delta": 1.0
+            },
+            "keys": "ctrl+plus"
+>>>>>>> ebd4f08c5e92a41f004c40f2b3f424e06075d65c
         },
         {
             "command": 
@@ -155,8 +247,18 @@
             "keys": "alt+shift+up"
         },
         {
+<<<<<<< HEAD
             "command": "togglePaneZoom",
             "keys": "alt+shift+z"
+=======
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "auto",
+                "splitMode": "duplicate"
+            },
+            "keys": "alt+shift+d"
+>>>>>>> ebd4f08c5e92a41f004c40f2b3f424e06075d65c
         },
         {
             "command": 
@@ -165,6 +267,7 @@
                 "direction": "right"
             },
             "keys": "ctrl+alt+shift+right"
+<<<<<<< HEAD
         },
         {
             "command": 
@@ -173,11 +276,17 @@
                 "direction": "up"
             },
             "keys": "ctrl+alt+shift+up"
+=======
+>>>>>>> ebd4f08c5e92a41f004c40f2b3f424e06075d65c
         }
     ],
     "copyFormatting": "none",
     "copyOnSelect": true,
+<<<<<<< HEAD
     "defaultProfile": "{6984bdb5-595d-5282-b464-0cc9cadc47d2}",
+=======
+    "defaultProfile": "{17bf3de4-5353-5709-bcf9-835bd952a95e}",
+>>>>>>> ebd4f08c5e92a41f004c40f2b3f424e06075d65c
     "language": "en-US",
     "largePasteWarning": false,
     "launchMode": "maximized",
@@ -217,6 +326,7 @@
                 "source": "Windows.Terminal.Azure"
             },
             {
+<<<<<<< HEAD
                 "commandline": "wsl.exe -d alpine-edge",
                 "guid": "{5e6c4f7b-1f02-5871-a9af-5ad265f3c1ee}",
                 "hidden": true,
@@ -255,6 +365,20 @@
                 "hidden": true,
                 "name": "Ubuntu-22.04",
                 "source": "Windows.Terminal.Wsl"
+=======
+                "bellStyle": "window",
+                "guid": "{17bf3de4-5353-5709-bcf9-835bd952a95e}",
+                "hidden": true,
+                "historySize": 99999,
+                "name": "Ubuntu-22.04",
+                "source": "Windows.Terminal.Wsl"
+            },
+            {
+                "guid": "{f9ceaf27-504c-58d7-927c-d1d6a7ac7d3c}",
+                "hidden": false,
+                "name": "Ubuntu 22.04.1 LTS",
+                "source": "CanonicalGroupLimited.Ubuntu22.04LTS_79rhkp1fndgsc"
+>>>>>>> ebd4f08c5e92a41f004c40f2b3f424e06075d65c
             }
         ]
     },
@@ -494,4 +618,8 @@
     "tabSwitcherMode": "inOrder",
     "themes": [],
     "trimBlockSelection": true
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> ebd4f08c5e92a41f004c40f2b3f424e06075d65c

@@ -1,7 +1,7 @@
 [push]
     default = simple
 [credential]
-    helper = store
+    helper = cache
 [user]
     name = Nicholas Dille
 [includeif "hasconfig:remote.*.url:https://github.com/nicholasdille/**"]
