@@ -1,60 +1,205 @@
 {
+    "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    "language": "en-US",
-    "launchMode": "maximized",
-    "minimizeToTray": true,
-    "alwaysShowTrayIcon": true,
-    "tabSwitcherMode": "inOrder",
+    "actions": 
+    [
+        {
+            "command": 
+            {
+                "action": "moveFocus",
+                "direction": "down"
+            },
+            "keys": "alt+down"
+        },
+        {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "right"
+            },
+            "keys": "alt+shift+<"
+        },
+        {
+            "command": 
+            {
+                "action": "adjustFontSize",
+                "delta": -1.0
+            },
+            "keys": "ctrl+minus"
+        },
+        {
+            "command": "resetFontSize",
+            "keys": "ctrl+0"
+        },
+        {
+            "command": 
+            {
+                "action": "swapPane",
+                "direction": "left"
+            },
+            "keys": "ctrl+alt+shift+left"
+        },
+        {
+            "command": 
+            {
+                "action": "swapPane",
+                "direction": "down"
+            },
+            "keys": "ctrl+alt+shift+down"
+        },
+        {
+            "command": 
+            {
+                "action": "commandPalette"
+            },
+            "keys": "ctrl+shift+p"
+        },
+        {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "down"
+            },
+            "keys": "alt+shift+minus"
+        },
+        {
+            "command": 
+            {
+                "action": "quakeMode"
+            },
+            "keys": "win+^"
+        },
+        {
+            "command": 
+            {
+                "action": "resizePane",
+                "direction": "left"
+            },
+            "keys": "alt+shift+left"
+        },
+        {
+            "command": "find",
+            "keys": "ctrl+shift+f"
+        },
+        {
+            "command": 
+            {
+                "action": "adjustFontSize",
+                "delta": 1.0
+            },
+            "keys": "ctrl+plus"
+        },
+        {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "auto",
+                "splitMode": "duplicate"
+            },
+            "keys": "alt+shift+d"
+        },
+        {
+            "command": "toggleReadOnlyMode",
+            "keys": "alt+shift+r"
+        },
+        {
+            "command": "closePane",
+            "keys": "alt+shift+w"
+        },
+        {
+            "command": 
+            {
+                "action": "moveFocus",
+                "direction": "left"
+            },
+            "keys": "alt+left"
+        },
+        {
+            "command": 
+            {
+                "action": "moveFocus",
+                "direction": "right"
+            },
+            "keys": "alt+right"
+        },
+        {
+            "command": 
+            {
+                "action": "moveFocus",
+                "direction": "up"
+            },
+            "keys": "alt+up"
+        },
+        {
+            "command": 
+            {
+                "action": "resizePane",
+                "direction": "down"
+            },
+            "keys": "alt+shift+down"
+        },
+        {
+            "command": 
+            {
+                "action": "resizePane",
+                "direction": "right"
+            },
+            "keys": "alt+shift+right"
+        },
+        {
+            "command": 
+            {
+                "action": "resizePane",
+                "direction": "up"
+            },
+            "keys": "alt+shift+up"
+        },
+        {
+            "command": "togglePaneZoom",
+            "keys": "alt+shift+z"
+        },
+        {
+            "command": 
+            {
+                "action": "swapPane",
+                "direction": "right"
+            },
+            "keys": "ctrl+alt+shift+right"
+        },
+        {
+            "command": 
+            {
+                "action": "swapPane",
+                "direction": "up"
+            },
+            "keys": "ctrl+alt+shift+up"
+        }
+    ],
     "copyFormatting": "none",
     "copyOnSelect": true,
-    "trimBlockSelection": true,
-    "largePasteWarning": false,
-    "multiLinePasteWarning": false,
-    "keybindings": 
-    [
-        { "keys": "ctrl+shift+p",         "command": "commandPalette" },
-        { "keys": "win+^",                "command": "quakeMode" },
-        { "keys": "ctrl+shift+f",         "command": "find" },
-        { "keys": "ctrl+0",               "command": "resetFontSize" },
-        { "keys": "ctrl+plus",            "command": { "action": "adjustFontSize", "delta": 1 } },
-        { "keys": "ctrl+-",               "command": { "action": "adjustFontSize", "delta": -1 } },
-        { "keys": "alt+shift+<",          "command": { "action": "splitPane",      "split": "vertical" } },
-        { "keys": "alt+shift+-",          "command": { "action": "splitPane",      "split": "horizontal" } },
-        { "keys": "alt+shift+d",          "command": { "action": "splitPane",      "split": "auto", "splitMode": "duplicate" } },
-        { "keys": "alt+shift+w",          "command": "closePane" },
-        { "keys": "alt+down",             "command": { "action": "moveFocus",      "direction": "down" } },
-        { "keys": "alt+left",             "command": { "action": "moveFocus",      "direction": "left" } },
-        { "keys": "alt+right",            "command": { "action": "moveFocus",      "direction": "right" } },
-        { "keys": "alt+up",               "command": { "action": "moveFocus",      "direction": "up" } },
-        { "keys": "alt+shift+down",       "command": { "action": "resizePane",     "direction": "down" } },
-        { "keys": "alt+shift+left",       "command": { "action": "resizePane",     "direction": "left" } },
-        { "keys": "alt+shift+right",      "command": { "action": "resizePane",     "direction": "right" } },
-        { "keys": "alt+shift+up",         "command": { "action": "resizePane",     "direction": "up" } },
-        { "keys": "alt+shift+z",          "command": "togglePaneZoom" },
-        { "keys": "alt+shift+r",          "command": "toggleReadOnlyMode" },
-        { "keys": "alt+shift+ctrl+down",  "command": { "action": "swapPane", "direction": "down" } },
-        { "keys": "alt+shift+ctrl+left",  "command": { "action": "swapPane", "direction": "left" } },
-        { "keys": "alt+shift+ctrl+right", "command": { "action": "swapPane", "direction": "right" } },
-        { "keys": "alt+shift+ctrl+up",    "command": { "action": "swapPane", "direction": "up" } }
-    ],
     "defaultProfile": "{6984bdb5-595d-5282-b464-0cc9cadc47d2}",
+    "language": "en-US",
+    "largePasteWarning": false,
+    "launchMode": "maximized",
+    "multiLinePasteWarning": false,
     "profiles": 
     {
         "defaults": 
         {
             "cursorShape": "filledBox",
-            "fontFace": "Cascadia Mono PL"
+            "font": 
+            {
+                "face": "Cascadia Mono PL"
+            }
         },
         "list": 
         [
             {
-                "commandline": "powershell.exe",
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
                 "name": "Windows PowerShell"
             },
             {
-                "commandline": "cmd.exe",
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "hidden": true,
                 "name": "Eingabeaufforderung"
@@ -66,18 +211,6 @@
                 "source": "Windows.Terminal.PowershellCore"
             },
             {
-                "guid": "{1eba9d8a-d5c6-5ddd-a4df-7daa881c31e0}",
-                "hidden": false,
-                "name": "ubuntu-hirsute",
-                "source": "Windows.Terminal.Wsl"
-            },
-            {
-                "guid": "{639d9e7f-51b3-5af2-8625-118dd6674fe9}",
-                "hidden": true,
-                "name": "clearlinux",
-                "source": "Windows.Terminal.Wsl"
-            },
-            {
                 "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
                 "hidden": true,
                 "name": "Azure Cloud Shell",
@@ -85,21 +218,21 @@
             },
             {
                 "commandline": "wsl.exe -d alpine-edge",
+                "guid": "{5e6c4f7b-1f02-5871-a9af-5ad265f3c1ee}",
                 "hidden": true,
                 "icon": "ms-appx:///ProfileIcons/{9acb9455-ca41-5af7-950f-6bca1bc9722f}.png",
                 "name": "alpine:edge"
             },
             {
-                "guid": "{13589c89-0fac-58f0-9bfa-44014b41b44c}",
-                "hidden": true,
-                "name": "alpine-edge",
-                "source": "Windows.Terminal.Wsl"
-            },
-            {
                 "antialiasingMode": "cleartype",
-                "bellStyle": "visual",
+                "bellStyle": 
+                [
+                    "window",
+                    "taskbar"
+                ],
                 "closeOnExit": "graceful",
                 "commandline": "wsl.exe -d ubuntu-hirsute -u dillen",
+                "guid": "{6984bdb5-595d-5282-b464-0cc9cadc47d2}",
                 "icon": "ms-appx:///ProfileIcons/{9acb9455-ca41-5af7-950f-6bca1bc9722f}.png",
                 "name": "Ubuntu Hirsute DilleN",
                 "tabTitle": "WSL",
@@ -107,15 +240,20 @@
             },
             {
                 "antialiasingMode": "cleartype",
-                "bellStyle": "visual",
+                "bellStyle": 
+                [
+                    "window",
+                    "taskbar"
+                ],
                 "commandline": "wsl.exe -d ubuntu-focal -u dillen",
+                "guid": "{fccd3a71-8142-542e-ac4f-b8174cfe0d2c}",
                 "icon": "ms-appx:///ProfileIcons/{9acb9455-ca41-5af7-950f-6bca1bc9722f}.png",
                 "name": "Ubuntu Focal DilleN"
             },
             {
-                "guid": "{9eda5731-fdb8-53b7-a8fb-2385e9fc172a}",
-                "hidden": false,
-                "name": "ubuntu-focal",
+                "guid": "{17bf3de4-5353-5709-bcf9-835bd952a95e}",
+                "hidden": true,
+                "name": "Ubuntu-22.04",
                 "source": "Windows.Terminal.Wsl"
             }
         ]
@@ -307,6 +445,29 @@
             "yellow": "#C4A000"
         },
         {
+            "background": "#300A24",
+            "black": "#171421",
+            "blue": "#0037DA",
+            "brightBlack": "#767676",
+            "brightBlue": "#08458F",
+            "brightCyan": "#2C9FB3",
+            "brightGreen": "#26A269",
+            "brightPurple": "#A347BA",
+            "brightRed": "#C01C28",
+            "brightWhite": "#F2F2F2",
+            "brightYellow": "#A2734C",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#3A96DD",
+            "foreground": "#FFFFFF",
+            "green": "#26A269",
+            "name": "Ubuntu-22.04-ColorScheme",
+            "purple": "#881798",
+            "red": "#C21A23",
+            "selectionBackground": "#FFFFFF",
+            "white": "#CCCCCC",
+            "yellow": "#A2734C"
+        },
+        {
             "background": "#000000",
             "black": "#000000",
             "blue": "#000080",
@@ -329,5 +490,8 @@
             "white": "#C0C0C0",
             "yellow": "#808000"
         }
-    ]
+    ],
+    "tabSwitcherMode": "inOrder",
+    "themes": [],
+    "trimBlockSelection": true
 }
